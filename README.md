@@ -1,10 +1,10 @@
 # What is DolphinAttack?
 Speech recognition (SR) systems such as Siri or Google Now have become an increasingly popular human-computer interaction method, and have turned various systems into voice controllable systems (VCS). Prior work on attacking VCS shows that the hidden voice commands that are incomprehensible to people can control the systems. Hidden voice commands, though ‘hidden’, are nonetheless audible. In this work, we design a completely inaudible attack, DolphinAttack, that modulates voice commands on ultrasonic carriers (e.g., f > 20 kHz) to achieve inaudibility. By leveraging the nonlinearity of the microphone circuits, the modulated low frequency audio commands can be successfully demodulated, recovered, and more importantly interpreted by the speech recognition systems. We validate DolphinAttack on popular speech recognition systems, including Siri, Google Now, Samsung S Voice, Huawei, HiVoice, Cortana and Alexa. By injecting a sequence of inaudible voice commands, we show a few proof-of-concept attacks, which include activating Siri to initiate a FaceTime call on iPhone, activating Google Now to switch the phone to the airplane mode, and even manipulating the navigation system in an Audi automobile. We propose hardware and software defense solutions. We validate that it is feasible to detect DolphinAttack by classifying the audios using supported vector machine (SVM), and suggest to re-design voice controllable systems to be resilient to inaudible voice command attacks.
 
-# How does DolphinAttack work?
+## How does DolphinAttack work?
 ![DA](https://github.com/USSLab/DolphinAttack/blob/master/images/receiver.png)</a>
 
-# Tested Devices
+## Tested Devices
 The following devices and voice assistants have been tested in our experiments. Experimental parameters are provided in our paper.
 
 Manufacturer | Model | OS/Version | Voice Assistant | Activation<sup>1</sup> | Recognition<sup>2</sup>
@@ -31,7 +31,7 @@ Audi         | Q3                 | N/A             | N/A             | N/A     
 <sup>2</sup> The voice assistant/device can recognize the DolphinAttack voice commands after being activated.
 
 ## What should I do?
-We have informed the above manufacturers and are collaborating with them on the security patches. Before the security patches are ready, you can protect your device from DolphinAttack by turning off the "voice activation" of voice assistant, such as "Hey Siri". In this way, the voice assistants can only be activated through physical touch. For more security, you can turn off the voice assistant temporarily. 
+We have informed the above manufacturers and are collaborating with them on the security patches. Before the security patches are ready, you can protect your devices from DolphinAttack by turning off the "voice activation" of voice assistant, such as "Hey Siri". In this way, the voice assistants can only be activated through physical touch. For more security, you can turn off the voice assistant temporarily. 
 
 # Read our paper
 * Guoming Zhang, Chen Yan, Xiaoyu Ji, Tianchen Zhang, Taimin Zhang, Wenyuan Xu. [**DolphinAttack: Inaudible Voice Commands**](https://dl.acm.org/citation.cfm?id=3134052). *Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (CCS 2017)*, October 2017. [[pdf]](http://usslab.org/papers/CCS2017_DolphinAttack_CameraReady.pdf) [(**Best Paper Award**)](https://www.sigsac.org/ccs/CCS2017/awards.html)
