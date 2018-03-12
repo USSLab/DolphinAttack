@@ -35,7 +35,10 @@ Audi         | Q3                 | N/A             | N/A             | N/A     
 ## How to implement the experiment?
 We offered two approaches in our paper, a benchtop setup and a portable one. However, we keep receiving letters asking about the portable setup. We understand the low-cost and convience of the portable setup, but we would recommand to start with a bentchtop setup of professional equipment, if ever possible. The reason is, the nonlinearity is highly hardware dependent and can vary from devices to devices, and the key of this experiment is in finding and tuning the parameters. Due to the limitations of portable setup on power, modulation precision, transducer's frequency selectivity, debugging, etc., it is hard to pinpoint the problems you will have with a portable setup. The exact models for all the benchtop equipment can be found in the reference section of our paper.
 
-## What should I do?
+## Video demonstration
+A video demonstration of *DolphinAttack* is on [YouTube](https://youtu.be/21HjF4A3WE4). Watch more videos on our lab homepage at [usslab.org](http://usslab.org/projects/dolphinAttack.html).
+
+## Worried about your device?
 We have informed the above manufacturers and are collaborating with them on the security patches. Before the security patches are ready, you can protect your devices from *DolphinAttack* by turning off the "voice activation" of voice assistant, such as "Hey Siri". In this way, the voice assistants can only be activated through physical touch. For more security, you can turn off the voice assistant temporarily. 
 
 # Read our paper
