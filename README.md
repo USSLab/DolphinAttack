@@ -1,6 +1,8 @@
 # What is DolphinAttack?
 Speech recognition (SR) systems such as Siri or Google Now have become an increasingly popular human-computer interaction method, and have turned various systems into voice controllable systems (VCS). Prior work on attacking VCS shows that the hidden voice commands that are incomprehensible to people can control the systems. Hidden voice commands, though ‘hidden’, are nonetheless audible. In this work, we design a completely inaudible attack, DolphinAttack, that modulates voice commands on ultrasonic carriers (e.g., f > 20 kHz) to achieve inaudibility. By leveraging the nonlinearity of the microphone circuits, the modulated low frequency audio commands can be successfully demodulated, recovered, and more importantly interpreted by the speech recognition systems. We validate DolphinAttack on popular speech recognition systems, including Siri, Google Now, Samsung S Voice, Huawei, HiVoice, Cortana and Alexa. By injecting a sequence of inaudible voice commands, we show a few proof-of-concept attacks, which include activating Siri to initiate a FaceTime call on iPhone, activating Google Now to switch the phone to the airplane mode, and even manipulating the navigation system in an Audi automobile. We propose hardware and software defense solutions. We validate that it is feasible to detect DolphinAttack by classifying the audios using supported vector machine (SVM), and suggest to re-design voice controllable systems to be resilient to inaudible voice command attacks.
 
+# How does DolphinAttack work?
+
 # Tested Devices
 The following devices and voice assistants have been tested in our experiments. Experimental parameters are provided in our paper.
 
@@ -28,7 +30,16 @@ Audi         | Q3                 | N/A             | N/A             | N/A     
 <sup>2</sup> The voice assistant/device can recognize the DolphinAttack voice commands after being activated.
 
 # Read our paper
-* Guoming Zhang, Chen Yan, Xiaoyu Ji, Tianchen Zhang, Taimin Zhang, Wenyuan Xu. [**DolphinAttack: Inaudible Voice Commands**](https://dl.acm.org/citation.cfm?id=3134052). *Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (CCS 2017)*, October 2017. [[pdf]](http://usslab.org/papers/CCS2017_DolphinAttack_CameraReady.pdf)
+* Guoming Zhang, Chen Yan, Xiaoyu Ji, Tianchen Zhang, Taimin Zhang, Wenyuan Xu. [**DolphinAttack: Inaudible Voice Commands**](https://dl.acm.org/citation.cfm?id=3134052). *Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (CCS 2017)*, October 2017. [[pdf]](http://usslab.org/papers/CCS2017_DolphinAttack_CameraReady.pdf) [(**Best Paper Award**)](https://www.sigsac.org/ccs/CCS2017/awards.html)
+
+## Related papers
+* Vaidya, Tavish, et al. ["Cocaine noodles: exploiting the gap between human and machine speech recognition."](https://www.usenix.org/node/191969) WOOT 15 (2015): 10-11.
+
+* Carlini, Nicholas, et al. ["Hidden Voice Commands."](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/carlini) USENIX Security Symposium. 2016.
+
+* Song, Liwei, and Prateek Mittal. ["Inaudible voice commands."](https://arxiv.org/abs/1708.07238) arXiv preprint arXiv:1708.07238 (2017).
+
+* Roy, Nirupam, et al. ["Inaudible Voice Commands: The Long-Range Attack and Defense."](https://www.usenix.org/conference/nsdi18/presentation/roy) Symposium on Networked Systems Design and Implementation (NSDI 18). 2018.
 
 # In the news
 * **MIT Technology Review** [Secret Ultrasonic Commands Can Control Your Smartphone, Say Researchers](https://www.technologyreview.com/s/608825/secret-ultrasonic-commands-can-control-your-smartphone-say-researchers/)
