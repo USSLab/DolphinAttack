@@ -32,20 +32,14 @@ Audi         | Q3                 | N/A             | N/A             | N/A     
 
 <sup>2</sup> The voice assistant/device can recognize the *DolphinAttack* voice commands after being activated.
 
+## How to implement the experiment?
+We offered two approaches in our paper, a benchtop setup and a portable one. However, we keep receiving letters asking about the portable setup. We understand the low-cost and convience of the portable setup, but we would recommand to start with a bentchtop setup of professional equipment, if ever possible. The reason is, the nonlinearity is highly hardware dependent and can vary from devices to devices, and the key of this experiment is in finding and tuning the parameters. Due to the limitations of portable setup on power, modulation precision, transducer's frequency selectivity, debugging, etc., it is hard to pinpoint the problems you will have with a portable setup. The exact models for all the benchtop equipment can be found in the reference section of our paper.
+
 ## What should I do?
 We have informed the above manufacturers and are collaborating with them on the security patches. Before the security patches are ready, you can protect your devices from *DolphinAttack* by turning off the "voice activation" of voice assistant, such as "Hey Siri". In this way, the voice assistants can only be activated through physical touch. For more security, you can turn off the voice assistant temporarily. 
 
 # Read our paper
 * Guoming Zhang, Chen Yan, Xiaoyu Ji, Tianchen Zhang, Taimin Zhang, Wenyuan Xu. [**DolphinAttack: Inaudible Voice Commands**](https://dl.acm.org/citation.cfm?id=3134052). *Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (CCS 2017)*, October 2017. [[pdf]](http://usslab.org/papers/CCS2017_DolphinAttack_CameraReady.pdf) [(**Best Paper Award**)](https://www.sigsac.org/ccs/CCS2017/awards.html)
-
-## Related papers
-* Vaidya, Tavish, et al. ["Cocaine noodles: exploiting the gap between human and machine speech recognition."](https://www.usenix.org/node/191969) WOOT 15 (2015): 10-11.
-
-* Carlini, Nicholas, et al. ["Hidden Voice Commands."](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/carlini) USENIX Security Symposium. 2016.
-
-* Song, Liwei, and Prateek Mittal. ["Inaudible voice commands."](https://arxiv.org/abs/1708.07238) arXiv preprint arXiv:1708.07238 (2017).
-
-* Roy, Nirupam, et al. ["Inaudible Voice Commands: The Long-Range Attack and Defense."](https://www.usenix.org/conference/nsdi18/presentation/roy) Symposium on Networked Systems Design and Implementation (NSDI 18). 2018.
 
 # In the news
 * **MIT Technology Review** [Secret Ultrasonic Commands Can Control Your Smartphone, Say Researchers](https://www.technologyreview.com/s/608825/secret-ultrasonic-commands-can-control-your-smartphone-say-researchers/)
