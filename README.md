@@ -6,7 +6,7 @@ A [nonlinear system](https://en.wikipedia.org/wiki/Nonlinear_system) is a system
 
 ![DA](https://github.com/USSLab/DolphinAttack/blob/master/images/receiver.png)</a>
 
-## Tested Devices
+## Tested devices
 The following devices and voice assistants have been tested in our experiments with the experimental parameters provided in our paper. The table will be kept updated.
 
 Manufacturer | Model | OS/Version | Voice Assistant | Activation<sup>1</sup> | Recognition<sup>2</sup>
@@ -33,7 +33,7 @@ Audi         | Q3                 | N/A             | N/A             | N/A     
 <sup>2</sup> The voice assistant/device can recognize the *DolphinAttack* voice commands after being activated.
 
 ## How to implement the experiment?
-We offered two approaches in our paper, a benchtop setup and a portable one. However, we keep receiving letters asking about the portable setup. We understand the low-cost and convience of the portable setup, but we would recommand to start with a bentchtop setup of professional equipment, if ever possible. The reason is, the nonlinearity is highly hardware dependent and can vary from devices to devices, and the key of this experiment is in finding and tuning the parameters. Due to the limitations of portable setup on power, modulation precision, transducer's frequency selectivity, debugging, etc., it is hard to pinpoint the problems you will have with a portable setup. The exact models for all the benchtop equipment can be found in the reference section of our paper.
+We offered two approaches in our paper, a benchtop setup and a portable one. However, we keep receiving letters asking about the portable setup. We understand the low-cost and convience of the portable setup, but we would recommand to start with a bentchtop setup of professional equipment, if ever possible. The reason is, the nonlinearity is highly hardware dependent and can vary greatly from devices to devices, and the key of this experiment is in finding and tuning the parameters. Due to the limitations of portable setup on power, modulation precision, transducer's frequency selectivity, debugging, etc., it is hard to pinpoint the problems you will have with a portable setup. The exact models for all the benchtop equipment can be found in the reference section of our paper.
 
 ## Video demonstration
 A video demonstration of *DolphinAttack* is on [YouTube](https://youtu.be/21HjF4A3WE4). Watch more videos on our lab homepage at [usslab.org](http://usslab.org/projects/dolphinAttack.html).
