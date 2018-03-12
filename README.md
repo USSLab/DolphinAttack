@@ -30,6 +30,9 @@ Audi         | Q3                 | N/A             | N/A             | N/A     
 
 <sup>2</sup> The voice assistant/device can recognize the DolphinAttack voice commands after being activated.
 
+## What should I do?
+We have informed the above manufacturers and are collaborating with them on the security patches. Before the security patches are ready, you can protect your device from DolphinAttack by turning off the "voice activation" of voice assistant, such as "Hey Siri". In this way, the voice assistants can only be activated through physical touch. For more security, you can turn off the voice assistant temporarily. 
+
 # Read our paper
 * Guoming Zhang, Chen Yan, Xiaoyu Ji, Tianchen Zhang, Taimin Zhang, Wenyuan Xu. [**DolphinAttack: Inaudible Voice Commands**](https://dl.acm.org/citation.cfm?id=3134052). *Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (CCS 2017)*, October 2017. [[pdf]](http://usslab.org/papers/CCS2017_DolphinAttack_CameraReady.pdf) [(**Best Paper Award**)](https://www.sigsac.org/ccs/CCS2017/awards.html)
 
