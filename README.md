@@ -62,9 +62,20 @@ We have informed the above manufacturers and are collaborating with them on the 
 **Manifest of the "DolphinAttack Dataset".**
 [DolphinAttack Dataset Download Link](https://drive.google.com/file/d/1-p1Q4d7EbVO73beHOba4KJdjYcmyOx__/view?usp=sharing)
 
-This demo dataset is composed of 2702 audios, which records 5 speakers, 28 voice commands at different distances by them respectively. 
+This demo dataset is composed of 2702 audios, which records 28 voice commands at 7 distances by 5 speakers respectively. 
 
 The *annotation.txt* indicates the audio files list.
+| name | phone | distance | commands |
+| ---- | ---- | ---- | ---- |
+| google | p00_1_1.wav | 150cm | Echo |
+| google | p01_2_3.wav | 30cm | 你好联想 |
+| huawei | p02_3_4.wav | 100cm | Echo |
+| oppo | p05_6_1.wav | 150cm | together difficult |
+
+**Notes:** eg. p00_1_1.wav means <br> 
+a) speaker: p00; <br>
+b) commands can be located in the next table's Col 1st, Row 1st, where shows command "Echo"
+c) There are several repeat commands, never mind.
 
 **A table of 28 commands**
 | Col 1 | Col 2 | Col 3 | Col 4 | Col 5 | Col 6 |
