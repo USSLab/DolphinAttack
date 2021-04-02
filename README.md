@@ -65,7 +65,7 @@ We have informed the above manufacturers and are collaborating with them on the 
 This demo dataset is composed of 2900+ audios, which records 28 voice commands at 7 distances by 5 speakers respectively. 
 
 The *annotation.txt* indicates the audio files list.
-| name | phone | distance | commands |
+| phone | file_name | distance | commands |
 | ---- | ---- | ---- | ---- |
 | google-pixel | p00_1_1.wav | 150cm | Echo |
 | huawei-nova2 | p01_2_3.wav | 30cm | 你好联想 |
