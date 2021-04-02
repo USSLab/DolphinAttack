@@ -67,10 +67,11 @@ This demo dataset is composed of 2702 audios, which records 28 voice commands at
 The *annotation.txt* indicates the audio files list.
 | name | phone | distance | commands |
 | ---- | ---- | ---- | ---- |
-| google | p00_1_1.wav | 150cm | Echo |
-| google | p01_2_3.wav | 30cm | 你好联想 |
-| huawei | p02_3_4.wav | 100cm | Echo |
-| oppo | p05_6_1.wav | 150cm | together difficult |
+| google-pixel | p00_1_1.wav | 150cm | Echo |
+| huawei-nova2 | p01_2_3.wav | 30cm | 你好联想 |
+| huawei-mate9 | p02_3_4.wav | 100cm | Echo |
+| oppo-k3 | p05_6_1.wav | 150cm | together difficult |
+| oppo-reno | p05_6_1.wav | 150cm | together difficult |
 
 **Notes:** eg. p00_1_1.wav means <br> 
 a) speaker: p00 <br>
