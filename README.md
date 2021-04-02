@@ -73,8 +73,8 @@ The *annotation.txt* indicates the audio files list.
 | oppo | p05_6_1.wav | 150cm | together difficult |
 
 **Notes:** eg. p00_1_1.wav means <br> 
-a) speaker: p00; <br>
-b) commands can be located in the next table's Col 1st, Row 1st, where shows command "Echo"
+a) speaker: p00 <br>
+b) commands can be located in the next table's Col 1st, Row 1st, where shows command "Echo" <br>
 c) There are several repeat commands, never mind.
 
 **A table of 28 commands**
