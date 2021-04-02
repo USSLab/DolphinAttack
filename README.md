@@ -60,7 +60,7 @@ We have informed the above manufacturers and are collaborating with them on the 
 
 # DolphinAttack Dataset
 **Manifest of the "DolphinAttack Dataset".**
-[DolphinAttack Dataset Download Link](!https://drive.google.com/file/d/1-p1Q4d7EbVO73beHOba4KJdjYcmyOx__/view?usp=sharing)
+[DolphinAttack Dataset Download Link](https://drive.google.com/file/d/1-p1Q4d7EbVO73beHOba4KJdjYcmyOx__/view?usp=sharing)
 
 This demo dataset is composed of 2702 audios, which records 5 speakers, 28 voice commands at different distances by them respectively. The *annotation.txt* indicates the audio files list.
 
@@ -82,27 +82,6 @@ This demo dataset is composed of 2702 audios, which records 5 speakers, 28 voice
 # Contact
 * Prof. Wenyuan Xu (<wyxu@zju.edu.cn>)
 * Prof. Xiaoyu Ji (<xji@zju.edu.cn>)
-
-# Dataset
-## Manifest of the "DolphinAttack Dataset".
-
-This demo dataset is composed of 2702 audios, which records 5 speakers, 28 voice commands at different distances by them respectively. 
-The *annotation.txt* shows the audio files list.
-
-## A table of 28 commands
-| Col 1  | Col 2  |  Col 3  |  Col 4  |  Col 5  |  Col 6  |
-| -----  | -----  | ---- | ---- | ---- | ---- |
-| Echo     | Hey Cortana | 小布小布 | Hey Cortana | seriously everywhere  | together difficult |
-| Computer |  小微小微 | 小欧小欧 | hey bixby | everyone hundred | didn't agreement |
-| Ok Google | 你好联想 | Amazon | Computer | period anywhere | immediately connect |
-| 叮咚叮咚 | 小艺小艺 | Echo  | 你好问问 | unfortunately | unfortunately |
-| 你好魅族 | 你好问问 | 你好YOYO  | Hey Google |  |  |
-
-## 7 Distances
-- 10cm | 30cm | 60cm | 100cm | 150cm | 200cm | 300cm
-
-## 5 speakers
-- p01 | p02 | p03 | p04 | p05 
 
 # Powered by
 ## Ubiquitous System Security Laboratory (USSLab)
