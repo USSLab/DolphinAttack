@@ -62,7 +62,7 @@ We have informed the above manufacturers and are collaborating with them on the 
 **Manifest of the "DolphinAttack Dataset".**
 [DolphinAttack Dataset Download Link](https://drive.google.com/file/d/1-p1Q4d7EbVO73beHOba4KJdjYcmyOx__/view?usp=sharing)
 
-This demo dataset is composed of 2702 audios, which records 28 voice commands at 7 distances by 5 speakers respectively. 
+This demo dataset is composed of 2900+ audios, which records 28 voice commands at 7 distances by 5 speakers respectively. 
 
 The *annotation.txt* indicates the audio files list.
 | name | phone | distance | commands |
