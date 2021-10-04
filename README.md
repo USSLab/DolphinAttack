@@ -57,42 +57,6 @@ We have informed the above manufacturers and are collaborating with them on the 
 * **新华社** [苹果、三星都中招——“海豚音攻击”究竟是何方神器？](http://www.xinhuanet.com/fortune/2017-10/31/c_1121881819.htm)
 * **浙江大学** [对不起，你的手机被“无声”操控了](http://www.zju.edu.cn/2017/0911/c578a637706/page.htm)
 
-
-# DolphinAttack Dataset
-**Manifest of the "DolphinAttack Dataset".**
-[DolphinAttack Dataset Download Link](https://drive.google.com/file/d/1RgXlq4UuU2QKYHqwOcDaMESR-Z_2Rzmq/view?usp=sharing)
-
-This demo dataset is composed of 2900+ audios, which records 28 voice commands at 7 distances by 5 speakers respectively. 
-
-The *annotation.txt* indicates the audio files list.
-| phone | file_name | distance | commands |
-| ---- | ---- | ---- | ---- |
-| google-pixel | p00_1_1.wav | 150cm | Echo |
-| huawei-nova2 | p01_2_3.wav | 30cm | 你好联想 |
-| huawei-mate9 | p02_3_4.wav | 100cm | Echo |
-| oppo-k3 | p05_6_1.wav | 150cm | together difficult |
-| oppo-reno | p05_6_1.wav | 150cm | together difficult |
-
-**Notes:** eg. p00_1_1.wav means <br> 
-a) speaker: p00 <br>
-b) commands can be located in the next table's Col 1st, Row 1st, where shows command "Echo" <br>
-c) There are several repeat commands, never mind.
-
-**A table of 28 commands**
-| Col 1 | Col 2 | Col 3 | Col 4 | Col 5 | Col 6 |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| Echo     | Hey Cortana | 小布小布 | Hey Cortana | seriously everywhere  | together difficult |
-| Computer |  小微小微 | 小欧小欧 | hey bixby | everyone hundred | didn't agreement |
-| Ok Google | 你好联想 | Amazon | Computer | period anywhere | immediately connect |
-| 叮咚叮咚 | 小艺小艺 | Echo | 你好问问 | unfortunately | unfortunately |
-| 你好魅族 | 你好问问 | 你好YOYO | Hey Google |  |  |
-
-**7 Distances**
-- 10cm | 30cm | 60cm | 100cm | 150cm | 200cm | 300cm
-
-**5 speakers**
-- p01 | p02 | p03 | p04 | p05 
-
 # Contact
 * Prof. Wenyuan Xu (<wyxu@zju.edu.cn>)
 * Prof. Xiaoyu Ji (<xji@zju.edu.cn>)
